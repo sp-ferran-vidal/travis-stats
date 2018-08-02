@@ -22,3 +22,7 @@ Add a `config.json` file in the root directory, with an [API token](https://docs
 ```
 
 **Important:** To avoid getting your API token stolen, configure your server to require basic auth before serving both `index.html` and `config.json`.
+
+```
+curl -X POST http://api.travis-ci.com/auth/github -H 'Content-Type: application/json' -d '{"github_token":"'$GITHUB_ACCESS_TOKEN'"}' -L
+```

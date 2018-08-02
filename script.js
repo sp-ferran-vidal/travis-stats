@@ -1,6 +1,6 @@
 var defaultConfig = {
-	travis_endpoint: 'travis-ci.org',
-	travis_api_endpoint: 'api.travis-ci.org',
+	travis_endpoint: 'travis-ci.com',
+	travis_api_endpoint: 'api.travis-ci.com',
 	travis_api_token: false,
 }
 var config;
